@@ -214,7 +214,7 @@ elif user_menu == "Games Data Visualisation🀄":
     st.plotly_chart(pc1)
     st.caption('We can see that the average score of the games is for Critics and User is same around 7.0 but user data seems to have much more outliers.')
     st.text('I have segerated the required data from the main datain the helper.py file.')
-    st.markdown('The data jupyter notebook can be accessed via [Github]() .')
+    st.markdown('The data jupyter notebook can be accessed via [Github](https://github.com/Pin4sf/Video-Game-Analysis-VGA) .')
     pc2 = go.Figure()
     
     pc2.add_trace(go.Scatter(
@@ -251,7 +251,7 @@ Earier Critics and Users were havinh similar opinion and ratings regarding games
 > This is some intresting trend between critics and user.
 
 """)
-    code= ''' Let's Deep dive into "Critivs v/s User" go to next section from sidebar 👈🏽 '''
+    code= ''' Let's Deep dive into "Critics v/s User" go to next section from sidebar 👈🏽 '''
     st.code(code, language='python')
 
 elif user_menu == "Critics🧐 V/S Users😌":

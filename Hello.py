@@ -34,7 +34,7 @@ st.markdown(
     - Check out [scikit-learn.org](https://scikit-learn.org) for Machine Learning
 
     ### Github Repo :-
-    - [VideoGame Analysis]()
+    - [VideoGame Analysis](https://github.com/Pin4sf/Video-Game-Analysis-VGA)
 """
 )
 
