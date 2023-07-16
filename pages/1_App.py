@@ -171,7 +171,7 @@ elif user_menu == "Games Data Visualisation🀄":
     textfont=dict(size=14),
     marker=dict(line=dict(color='white', width=1)),
     ))
-    st.write(" As we can observe that PC and PlayStation have the most number of games compared to XBOX reason is that these are the platforms which are bexisting from 90's and XBOX made its debute in the market around 2000 this explains the smaller library but in recent year all the major games seems to be launching on all these platforms.")
+    st.write(" As we can observe that PC and PlayStation have the most number of games compared to XBOX reason is that these are the platforms which are existing from 90's and XBOX made its debute in the market around 2000 this explains the smaller library but in recent year all the major games seems to be launching on all these platforms.")
 
     vxb1.update_layout(
         title='Percentage of Games by Platform',
@@ -244,14 +244,14 @@ elif user_menu == "Games Data Visualisation🀄":
     )
     st.plotly_chart(pc2)
     st.markdown(""" 
-Earier Critics and Users were havinh similar opinion and ratings regarding games but recent decade we can obsereve that the critics and users have different opinions and ratings regarding games.
+Earlier Critics and Users were having similar opinion and ratings regarding games but recent decade we can obsereve that the critics and users have different opinions and ratings regarding games.
 
 ***Critics*** are more focused on the ***technical aspects*** of the game and the ***users*** are more focused on the gameplay and the ***overall experience*** of the game. This explains why Users in recent years are having much more lower ratings than Critics.
 
-> This is some intresting trend between critics and user.
+> This is some intresting trend between critics and users.
 
 """)
-    code= ''' Let's Deep dive into "Critics v/s User" go to next section from sidebar 👈🏽 '''
+    code= ''' Let's Deep dive into "Critics v/s Users" go to next section from sidebar 👈🏽 '''
     st.code(code, language='python')
 
 elif user_menu == "Critics🧐 V/S Users😌":
@@ -366,7 +366,7 @@ elif user_menu == "Critics🧐 V/S Users😌":
     st.markdown(""" 
 > This is similar trend as we have observed in the PC games data.
 
-Earier Critics and Users were havinh similar opinion and ratings regarding games but recent decade we can obsereve that the critics are having much more higher scores and users are not much satisfied as we see a consistent fall in ratings.
+Earlier Critics and Users were having similar opinion and ratings regarding games but recent decade we can obsereve that the critics are having much more higher scores and users are not much satisfied as we see a consistent fall in ratings.
 
 """)
     
